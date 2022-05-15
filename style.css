@@ -60,14 +60,20 @@ img {
 
 .header-right {
     display: flex;
+    margin-bottom: 15px;
 }
 
 .name-left {
     margin-right: 40px;
     margin-left: 50px;
     min-width: 300px;
-    margin-bottom: 10px;
 }
 
 .name-right {
+}
+
+li {
+    margin-left: 45px;
+    font-size: 13px;
+    padding-bottom: 3px ;
 }
