@@ -49,17 +49,19 @@ img {
     color: rgb(187, 193, 197);
     font-size: 14px;
     margin-top: -12px;
+    text-align: baseline;
 }
 
 .column-right {
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 
 .header-title {
     font-size: 20px;
     font-weight: bolder;
     color: rgb(41, 72, 107);
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 .header-right {
@@ -69,13 +71,53 @@ img {
 
 .name-left {
     margin-right: 30px;
-    margin-left: 20px;
+    margin-left: 0px;
     min-width: 300px;
+}
+
+.name-right {
+    margin-right: 20px;
 }
 
 li {
     margin-left: 45px;
     font-size: 13px;
-    padding: 2px ;
 
+}
+
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.qualification {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.material-icons {
+    color: green;
 }
