@@ -10,7 +10,7 @@ body {
     background-color: rgb(41, 72, 107);
     border-style: solid;
     border-color: black;
-    width: 300px;
+    min-width: 300px;
 }
 
 .personal {
@@ -51,6 +51,10 @@ img {
     margin-top: -12px;
 }
 
+.column-right {
+    margin-top: 30px;
+}
+
 .header-title {
     font-size: 20px;
     font-weight: bolder;
@@ -69,11 +73,9 @@ img {
     min-width: 300px;
 }
 
-.name-right {
-}
-
 li {
     margin-left: 45px;
     font-size: 13px;
-    padding-bottom: 3px ;
+    padding: 2px ;
+
 }
